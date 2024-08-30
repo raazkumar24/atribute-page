@@ -1,0 +1,331 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+body {
+    font-family: "Roboto", system-ui;
+}
+
+
+.page-1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    background-color: #f3fdb3;
+}
+
+.page-1 .left {
+    width: 50%;
+    padding: 0 5rem;
+}
+
+.page-1 .left img{
+    width: 80%;
+    border-radius: 50%;
+    margin: 0 auto;
+    display: block;
+}
+
+.page-1 .right {
+    width: 50%;
+    padding: 0 5rem;
+    text-align: center;
+}
+
+.page-1 .right h1 {
+    font-size: 3rem;
+}
+
+.page-1 .right p {
+    font-size: 1.5rem;
+    margin: 2rem 0;
+}
+
+.page-1 .right a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    border: 2px solid #0051ff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #000;
+    transition: 0.5s;
+    background-color: #fff;
+}
+
+.page-1 .right a:hover {
+    background-color: #8db1ff;
+    color: #fff;
+    border: 2px solid #8db1ff;
+}
+
+
+.page-2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #b3f5ff;
+    height: 80vh;
+}
+
+.page-2 .left,
+.page-2 .right {
+    width: 50%;
+    padding: 0 5rem;
+    text-align: start;
+}
+
+.page-2 .left h1,
+.page-2 .right h1 {
+    font-size: 2rem;
+}
+
+.page-2 .left p,
+.page-2 .right p {
+    font-size: 1.5rem;
+    margin: 2rem 0;
+}
+
+
+.page-3 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f3f3f3;
+    height: 80vh;
+}
+
+.page-3 .left,
+.page-3 .right {
+    width: 50%;
+    padding: 0 5rem;
+    text-align: start;
+}
+
+.page-3 .left h1,
+.page-3 .right h1 {
+    font-size: 2rem;
+}
+
+.page-3 .left p,
+.page-3 .right p {
+    font-size: 1.5rem;
+    margin: 2rem 0;
+}
+
+.page-3 span {
+    font-style: italic;
+    color: #c27100;
+}
+
+.page-4 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #b3f5ff;
+    height: 80vh;
+}
+
+.page-4 .container h1 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+
+.page-4 .boxes{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.page-4 .boxes .box {
+    text-align: center;
+    width: 50%;
+    padding: 5rem;
+    border: 2px solid ghostwhite;
+    border-radius: 10px;
+    margin: 0 1rem;
+    transition: 0.5s;
+}
+
+.page-4 .boxes .box h2 {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+}
+
+.page-4 .boxes .box p {
+    font-size: 1.2rem;
+    margin: 2rem 0;
+}
+
+.page-4 .boxes .box a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    border: 2px solid #0051ff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #000;
+    transition: 0.5s;
+    background-color: #fff;
+}
+
+.page-4 .boxes .box a:hover {
+    background-color: #8db1ff;
+    color: #fff;
+    border: 2px solid #8db1ff;
+}
+
+.page-4 .boxes .box:hover {
+    background-color: #fff;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #0051ff;
+    color: #fff;
+}
+
+footer p {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+    transition: 0.5s;
+    color: #fff;
+}
+
+footer p:hover {
+    color: #8db1ff;
+}
+
+footer p a {
+    text-decoration: none;
+    color: #fff;
+    transition: 0.5s;
+    color: #8db1ff;
+    padding: 5px;
+}
+
+
+
+@media (max-width: 768px) {
+    .page-1 {
+        flex-direction: column;
+    }
+    .page-1 .left {
+        width: 100%;
+    }
+
+    .page-1 .left img {
+        width: 80%;
+    }
+    
+    .page-1 .right {
+        width: 100%;
+        padding: 0 1rem;
+    }
+
+    .page-1 .right h1 {
+        font-size: 2rem;
+    }
+
+    .page-1 .right p {
+        font-size: 1.2rem;
+        margin: 1rem 0;
+    }
+
+    .page-1 .right a {
+        font-size: 1.2rem;
+    }
+
+
+    .page-2 {
+        flex-direction: column;
+    }
+
+    .page-2 .left,
+    .page-2 .right {
+        width: 100%;
+        padding: 0 1rem;
+
+    }
+
+    .page-2 .left h1,
+    .page-2 .right h1 {
+        font-size: 1.5rem;
+    }
+
+    .page-2 .left p,
+    .page-2 .right p {
+        font-size: 1.2rem;
+        margin: 1rem 0;
+    }
+
+
+    .page-3 {
+        flex-direction: column;
+    }
+
+    .page-3 .left,
+    .page-3 .right {
+        width: 100%;
+        padding: 0 1rem;
+    }
+
+    .page-3 .left h1,
+    .page-3 .right h1 {
+        font-size: 1.5rem;
+    }
+
+    .page-3 .left p,
+    .page-3 .right p {
+        font-size: 1.2rem;
+        margin: 1rem 0;
+    }
+
+
+    .page-4 {
+        flex-direction: column;
+    }
+
+    .page-4 .container h1 {
+        font-size: 1.5rem;
+    }
+
+
+    .page-4 .boxes{
+        flex-direction: column;
+    }
+
+    .page-4 .boxes .box {
+        width: 90%;
+        margin: 1rem;
+        padding: 1rem;
+        height: auto;
+    }
+
+    .page-4 .boxes .box h2 {
+        font-size: 1.2rem;
+    }
+
+    .page-4 .boxes .box p {
+        font-size: 1rem;
+    }
+
+    .page-4 .boxes .box a {
+        font-size: 1rem;
+    }
+
+    footer p {
+        font-size: 1rem;
+        margin: 1rem 0;
+    }
+    
+}
