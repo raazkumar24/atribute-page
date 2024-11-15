@@ -13,6 +13,17 @@ This is a beginner-level **tribute page** created using only **HTML** and **CSS*
 
 ---
 
+## Keywords  
+- Tribute page for beginners  
+- HTML CSS tribute page  
+- Responsive web design  
+- Tribute to Marnapratab Singh  
+- Beginner HTML CSS projects  
+- FreeCodeCamp tribute page example  
+- Simple responsive webpage  
+
+---
+
 ## Technologies Used  
 - **HTML5**: For structuring the content.  
 - **CSS3**: For styling the page and making it responsive.
